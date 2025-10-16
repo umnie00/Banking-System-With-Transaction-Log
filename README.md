@@ -15,13 +15,16 @@ Project Title:
 
 Project Description:
 
-      This Banking System is a full-featured desktop application that provides:
-
       User Authentication: Secure login and registration system with role-based access (admin/user)
+      
       Account Management: Users can deposit and withdraw funds with real-time balance updates
+      
       Transaction History: Complete logging of all financial transactions
+      
       Admin Dashboard: Advanced filtering and search capabilities for transaction monitoring
+      
       AVL Tree Implementation: Efficient transaction filtering using self-balancing binary search trees
+      
       Modern UI: Sleek, gradient-based interface with custom styling
 
 For Users:
@@ -151,3 +154,11 @@ Important Notes:
     Negative balances are prevented through validation
     Admin accounts can view all transactions but cannot modify them
     The system maintains complete transaction logs for auditing purposes
+
+
+Revision I've made:
+
+    The panel suggested explaining what data structure and algorithm were used in the project.
+    I added that the project uses an AVL Tree as its data structure, which is a self-balancing binary search tree that keeps transactions organized for faster searching.
+    The algorithm used is the AVL balancing algorithm, which automatically rotates the tree whenever new data is added or removed to keep it balanced. This helps the system perform searches,
+    insertions, and deletions efficiently with a time complexity of O(log n) — much faster than the O(n) time of normal list searches.
